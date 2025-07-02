@@ -23,7 +23,7 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>JavaScript developer, FolkUniversitetet 2025</li>
         <li>Business and Managment, Handelsakademin 2012</li>
       </ul>
@@ -33,7 +33,7 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul>
+      <ul className="list-disc pl-2">
         <li>Certified JavaScript Developer</li>
         <li>AWS Certified Solutions Architect</li>
       </ul>
