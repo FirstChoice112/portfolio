@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 //Get Domain and deploy project and activate email-send
 //modify gradient effect for mobile screen
 //Add link to github and linkedin
+//Add readme file
 
 export default function Home() {
   return (
