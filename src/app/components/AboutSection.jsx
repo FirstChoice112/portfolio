@@ -35,7 +35,6 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Certified JavaScript Developer</li>
-        <li>AWS Certified Solutions Architect</li>
       </ul>
     ),
   },
