@@ -9,7 +9,7 @@ const projectsData = [
     title: "React Portfolio Website",
     description: "A personal portfolio website built with NextJs",
     image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Next.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -18,7 +18,7 @@ const projectsData = [
     title: "E-commerce Website",
     description: "E-commerce website built with React and Redux",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Next.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     description:
       "React application to search movies, TV shows, and actors. Make your own lists, rate them and compare to IMDB ratings.",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Coffee delivery",
     description: "React single page application for coffee delivery wih drone",
     image: "/images/projects/4.png",
-    tag: ["All", "Web"],
+    tag: ["All", "React"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "Pizzeria Website",
     description: "React application for a pizzeria",
     image: "/images/projects/5.png",
-    tag: ["All", "mobile"],
+    tag: ["All", "React"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -55,7 +55,7 @@ const projectsData = [
     title: "ChunkItUp",
     description: "Goal planning Webapp",
     image: "/images/projects/6.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Next.js"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -85,13 +85,13 @@ const ProjectSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="React"
+          isSelected={tag === "React"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Next.js"
+          isSelected={tag === "Next.js"}
         />
       </div>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
