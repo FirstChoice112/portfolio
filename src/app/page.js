@@ -16,6 +16,7 @@ import Footer from "./components/Footer";
 //modify gradient effect for mobile screen
 //Add link to github and linkedin
 //Add readme file
+//Animation for project selection?
 
 export default function Home() {
   return (
