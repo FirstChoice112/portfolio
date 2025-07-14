@@ -5,18 +5,12 @@ import ProjectSection from "./components/ProjectSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 
-//Change picture
 //Add logo to header and navbar
-//Add linking to about, project and contacts
-//Add linking for hire me to --> contact
-//Make dowload resume available
 //Complete skill-list, two sides
 //Add Links to my projekts, and readme file? Fix pictures and description
 //Get Domain and deploy project and activate email-send
-//modify gradient effect for mobile screen
 //Add link to github and linkedin
 //Add readme file
-//Animation for project selection?
 
 export default function Home() {
   return (

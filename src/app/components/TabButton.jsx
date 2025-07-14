@@ -22,5 +22,3 @@ const TabButton = ({ active, selectTab, children }) => {
 };
 
 export default TabButton;
-
-//bg-gradient-to-br from-blue-500 via-purple-400 to-green-500
