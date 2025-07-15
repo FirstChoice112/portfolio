@@ -33,7 +33,9 @@ function Navbar() {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <div className="bg-gradient-to-r from-purple-500 to-green-400 text-white font-bold text-xl rounded-full w-10 h-10 flex items-center justify-center">
+            JS
+          </div>
         </Link>
 
         <div className="mobile-menu block md:hidden">
@@ -64,7 +66,12 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen && (
+        <MenuOverlay
+          links={navLinks}
+          onClickLink={() => setNavbarOpen(false)}
+        />
+      )}
     </nav>
   );
 }

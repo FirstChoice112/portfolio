@@ -9,13 +9,35 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>AWS</li>
-        <li>TypeScript</li>
+        <li>
+          <strong>Frontend:</strong> HTML, CSS, JavaScript, TypeScript, React,
+          Next.js, Tailwind
+        </li>
+        <li>
+          <strong>Backend:</strong> Node.js, Express.js
+        </li>
+        <li>
+          <strong>Databases:</strong> SQL (PostgreSQL), NoSQL (MongoDB,
+          DynamoDB)
+        </li>
+        <li>
+          <strong>State Management:</strong> Redux, Context API
+        </li>
+        <li>
+          <strong>Authentication:</strong> JWT (JSON Web Tokens), OAuth
+        </li>
+        <li>
+          <strong>APIs:</strong> RESTful APIs, CRUD operations, API keys
+        </li>
+        <li>
+          <strong>DevOps:</strong> CI/CD, Deployment (Vercel, Netlify, AWS)
+        </li>
+        <li>
+          <strong>Tools & Other:</strong> Git, GitHub, Figma, Postman, Insomnia
+        </li>
+        <li>
+          <strong>Methodologies:</strong> Agile, Scrum, Pair Programming
+        </li>
       </ul>
     ),
   },
