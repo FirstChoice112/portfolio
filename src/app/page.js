@@ -5,11 +5,12 @@ import ProjectSection from "./components/ProjectSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 
-//Add Links to my projekts Fix pictures and description
+//Add Links to my projekts
 //Get Domain and deploy project and activate email-send
 //Continue resume and change to english
 //Add readme file
 //Work in progress, or not yet deployed to project links?
+//Fix project update when filtering
 
 export default function Home() {
   return (
